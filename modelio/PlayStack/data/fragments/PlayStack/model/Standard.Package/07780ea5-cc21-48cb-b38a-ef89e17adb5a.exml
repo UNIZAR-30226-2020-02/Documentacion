@@ -28,6 +28,21 @@
         <COMPID name="Buscar álbumes" mc="Standard.UseCase" uid="9eb8dc98-e8e1-4846-a4a1-227d4060afda"/>
         <COMPID name="Buscar listas de reproducción" mc="Standard.UseCase" uid="ee4fc60a-7f1b-45e4-8b82-6fb68903ab6d"/>
         <COMPID name="Buscar usuarios" mc="Standard.UseCase" uid="70394126-4572-49b6-808a-d5c820e730b7"/>
+        <COMPID name="Crear lista de reproducción sólo con música local" mc="Standard.UseCase" uid="c104ae10-cefe-4be9-abaa-8287dbebc8cd"/>
+        <COMPID name="Crear lista de reproducción sólo con música en streaming" mc="Standard.UseCase" uid="aee6738d-aecc-4330-89ea-fbed44783aa8"/>
+        <COMPID name="Crear lista de reproducción con música local y en streaming" mc="Standard.UseCase" uid="7a692e5f-2448-410d-98dc-e29c55648dc3"/>
+        <COMPID name="Añadir canción a lista de reproducción" mc="Standard.UseCase" uid="0b39e3ec-9f68-4b85-b363-1007d1a22c58"/>
+        <COMPID name="Eliminar canción de lista de reproducción" mc="Standard.UseCase" uid="e039204e-d54f-4a7c-972b-26b6aec90e51"/>
+        <COMPID name="Crear carpeta de listas de reproducción" mc="Standard.UseCase" uid="a4d9c000-b5c5-451e-bd86-af75aabb1a0c"/>
+        <COMPID name="Hacer públicas o privadas listas de reproducción y carpetas" mc="Standard.UseCase" uid="81102b9e-82bb-425f-b00a-1e129f2c381d"/>
+        <COMPID name="Reproducir música local y podcasts locales" mc="Standard.UseCase" uid="e5a69e71-c3a8-45ec-9479-94a6e29299bc"/>
+        <COMPID name="Reproducir música y podcasts en streaming" mc="Standard.UseCase" uid="0703e83d-db53-452b-8210-203b57fb34d3"/>
+        <COMPID name="Añadir otros usuarios como amigos" mc="Standard.UseCase" uid="a21d995d-7a47-4e54-81a0-a7830fea643a"/>
+        <COMPID name="Enviar solicitud de amistad" mc="Standard.UseCase" uid="1531fde6-7caf-4f5d-86d8-dcdaa3dba6dd"/>
+        <COMPID name="Aceptar solicitud de amistad" mc="Standard.UseCase" uid="cb400ff1-ca2a-4d5f-ac93-ba92850ee0a6"/>
+        <COMPID name="Compartir canciones, podcasts y listas de reproducción generando un enlace" mc="Standard.UseCase" uid="2a174db0-5839-48de-b641-86ebd4b18312"/>
+        <COMPID name="Seguir a creadores de contenido" mc="Standard.UseCase" uid="556715a0-ce50-4074-8d15-d9b6c5f08feb"/>
+        <COMPID name="Suscribirse a podcasts" mc="Standard.UseCase" uid="b205061f-2729-4c16-9d93-0c512554c7bf"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagrama de casos de uso" mc="Standard.UseCaseDiagram" uid="46678de1-c83c-405c-a562-903c095055b9"/>
