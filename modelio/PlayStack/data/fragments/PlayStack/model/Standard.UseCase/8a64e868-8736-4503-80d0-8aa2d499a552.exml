@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Añadir otros usuarios como amigos" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Reproducir en modo aleatorio" version="4">
   <OBJECT>
-    <ID name="Añadir otros usuarios como amigos" mc="Standard.UseCase" uid="a21d995d-7a47-4e54-81a0-a7830fea643a"/>
+    <ID name="Reproducir en modo aleatorio" mc="Standard.UseCase" uid="8a64e868-8736-4503-80d0-8aa2d499a552"/>
     <PID name="PlayStack" mc="Standard.Package" uid="07780ea5-cc21-48cb-b38a-ef89e17adb5a"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,45 +9,45 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Añadir otros usuarios como amigos]]></ATT>
+      <ATT name="Name"><![CDATA[Reproducir en modo aleatorio]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="698ede6a-d2e9-4067-9756-47f1ffccf382"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="06f47141-fd94-4409-a13f-99dc5f0a52b2"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Enviar solicitud de amistad" mc="Standard.UseCase" uid="1531fde6-7caf-4f5d-86d8-dcdaa3dba6dd"/>
+              <ID name="Reproducir música local y podcasts locales" mc="Standard.UseCase" uid="e5a69e71-c3a8-45ec-9479-94a6e29299bc"/>
             </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="b34faf82-aa0e-4de9-b4b8-5136c460437f"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="36c86bca-09fa-45e9-9eda-eb504cde6182"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Aceptar solicitud de amistad" mc="Standard.UseCase" uid="cb400ff1-ca2a-4d5f-ac93-ba92850ee0a6"/>
+              <ID name="Reproducir música y podcasts en streaming *" mc="Standard.UseCase" uid="0703e83d-db53-452b-8210-203b57fb34d3"/>
             </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="dbefee86-ba2a-4574-afec-ebe49457bd16"/>
+          <ID name="" mc="Infrastructure.Note" uid="2d58e786-582a-45ae-a3d2-a90b3d2a0b88"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -61,7 +61,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="80ee954f-2440-4911-b2a4-512f8ede1f3f"/>
+          <ID name="" mc="Infrastructure.Note" uid="45495b8b-6b6e-494b-ab04-4a1b09f9ae2c"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -75,7 +75,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="5bb22c12-83a2-4cf9-9f0c-8d95ea07e9b3"/>
+          <ID name="" mc="Infrastructure.Note" uid="78564431-38c9-4d42-b779-69f5c11f1209"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -89,7 +89,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="aa206b18-189c-4c49-860d-a77022d5636b"/>
+          <ID name="" mc="Infrastructure.Note" uid="b93afc37-5bcc-4166-8d07-902f3812b5b3"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -103,7 +103,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="6fb8911f-6db3-4600-b2dd-8b73b68ee6f5"/>
+          <ID name="" mc="Infrastructure.Note" uid="c35393e5-8253-48b9-832c-32914d95547d"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -117,7 +117,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="1d2fb5b2-1264-44ec-93c6-d6e5e2db9ffb"/>
+          <ID name="" mc="Infrastructure.Note" uid="c78c46bd-ff75-4983-ba41-d5c5aa78148e"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
