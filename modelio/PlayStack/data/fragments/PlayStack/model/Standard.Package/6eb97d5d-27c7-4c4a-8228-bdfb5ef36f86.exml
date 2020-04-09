@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PlayStack DCU-Reproducción" version="4">
+  <OBJECT>
+    <ID name="PlayStack DCU-Reproducción" mc="Standard.Package" uid="6eb97d5d-27c7-4c4a-8228-bdfb5ef36f86"/>
+    <PID name="playstack" mc="Standard.Package" uid="80aa0550-5e89-4a6f-8240-cc45df973034"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[PlayStack DCU-Reproducción]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuario estándar" mc="Standard.Actor" uid="a92be704-b074-48df-ab0a-43d07da87f70"/>
+        <COMPID name="Usuario premium" mc="Standard.Actor" uid="e2f5fcb3-02fc-4d6a-8b89-579c2744c743"/>
+        <COMPID name="Creador de contenido" mc="Standard.Actor" uid="24dfe49e-a46a-4808-91ff-491ceeff004a"/>
+        <COMPID name="Reproducir música local y podcasts locales" mc="Standard.UseCase" uid="f894df5a-c291-4809-8765-6d575a3148f5"/>
+        <COMPID name="Reproducir música y podcasts en streaming *" mc="Standard.UseCase" uid="25fec909-b0cd-4146-aa19-0a0130347cd3"/>
+        <COMPID name="Reproducir en modo aleatorio" mc="Standard.UseCase" uid="df8ecc6b-a2ce-437d-9fa4-17094615ad79"/>
+        <COMPID name="Reproducir en bucle" mc="Standard.UseCase" uid="65aa7568-cc56-40bb-82ab-bd1c9e1e7806"/>
+        <COMPID name="Pausar reproducción" mc="Standard.UseCase" uid="5b1e671f-9b44-4e7b-8aaa-ca4b270e77e0"/>
+        <COMPID name="Cambiar de canción o podcast" mc="Standard.UseCase" uid="50204c36-a5ad-4961-a595-9c50e3646adf"/>
+        <COMPID name="Añadir canción o podcast a cola de reproducción" mc="Standard.UseCase" uid="53eec206-909a-4327-8250-28a8b9ea0634"/>
+        <COMPID name="DCU-Playlists" mc="Standard.Package" uid="fbeef5a8-2680-4947-a00e-90d5b23898a8"/>
+        <COMPID name="DCU-Reproducción" mc="Standard.Package" uid="438be5a7-a7f6-4af0-8854-1644534a9ad7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de casos de uso" mc="Standard.UseCaseDiagram" uid="df330873-0df4-47f3-852d-56802858e78a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
