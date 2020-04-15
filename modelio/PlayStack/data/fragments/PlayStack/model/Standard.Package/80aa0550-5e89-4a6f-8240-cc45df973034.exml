@@ -14,7 +14,12 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="PlayStack" mc="Standard.Package" uid="07780ea5-cc21-48cb-b38a-ef89e17adb5a"/>
+        <COMPID name="PlayStack DCU-Sistema" mc="Standard.Package" uid="07780ea5-cc21-48cb-b38a-ef89e17adb5a"/>
+        <COMPID name="PlayStack DCU-Playlists" mc="Standard.Package" uid="8d3bbde4-6d58-4505-bbe0-c63f62a551ad"/>
+        <COMPID name="PlayStack DCU-Reproducción" mc="Standard.Package" uid="6eb97d5d-27c7-4c4a-8228-bdfb5ef36f86"/>
+        <COMPID name="PlayStack DCU-Social" mc="Standard.Package" uid="a6b7ef85-8bf2-4973-b96c-12fb36d7fbd0"/>
+        <COMPID name="PlayStack DCU-Podcasts" mc="Standard.Package" uid="47816754-021d-47d4-9d1f-d79f372993fd"/>
+        <COMPID name="PlayStack DCU-Completo" mc="Standard.Package" uid="c6e730ea-8b7c-4e36-9a86-40b444bbe4d0"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

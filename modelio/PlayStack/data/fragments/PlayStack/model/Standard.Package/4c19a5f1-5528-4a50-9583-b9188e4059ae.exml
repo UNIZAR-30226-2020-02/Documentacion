@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCU-Playlists" version="4">
+  <OBJECT>
+    <ID name="DCU-Playlists" mc="Standard.Package" uid="4c19a5f1-5528-4a50-9583-b9188e4059ae"/>
+    <PID name="DCU-Social" mc="Standard.Package" uid="a6b7ef85-8bf2-4973-b96c-12fb36d7fbd0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DCU-Playlists]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuario estándar" mc="Standard.Actor" uid="acfb9965-9dbf-4844-bd57-0ad85f36d647"/>
+        <COMPID name="Registrarse en el sistema" mc="Standard.UseCase" uid="1e92ecdf-e8ac-4c93-a6b5-6554818c0aca"/>
+        <COMPID name="Usuario premium" mc="Standard.Actor" uid="e4263c9b-4a25-4e70-8e91-89a9f7586fd1"/>
+        <COMPID name="Creador de contenido" mc="Standard.Actor" uid="c255d734-88b3-472e-8361-cd711d5b31c9"/>
+        <COMPID name="Iniciar sesión en el sistema" mc="Standard.UseCase" uid="4aff29b9-35ef-4bbe-b6a5-ac1e27544444"/>
+        <COMPID name="Convertirse en usuario premium" mc="Standard.UseCase" uid="0b5d1e71-a70a-4f9d-bad2-6210c0010784"/>
+        <COMPID name="Realizar pago" mc="Standard.UseCase" uid="d59ca6f9-e26c-4f5f-b089-d106efbd7acf"/>
+        <COMPID name="Modificar perfil de usuario" mc="Standard.UseCase" uid="525873c0-4928-4eb6-821b-8d845a2e40cb"/>
+        <COMPID name="Buscar en el sistema" mc="Standard.UseCase" uid="27e80b05-ec82-4099-896a-2d855811431a"/>
+        <COMPID name="Buscar música" mc="Standard.UseCase" uid="94b3915c-2e31-47ae-926b-d99b219c47b3"/>
+        <COMPID name="Buscar podcasts" mc="Standard.UseCase" uid="c9b9cc95-2775-4447-a83c-bd7ea5bc4664"/>
+        <COMPID name="Buscar álbumes" mc="Standard.UseCase" uid="5aa132f6-1440-4b22-a08f-66a039801cab"/>
+        <COMPID name="Buscar listas de reproducción" mc="Standard.UseCase" uid="696ff365-5e5f-4ffd-8101-9ebfa39bd5d6"/>
+        <COMPID name="Buscar usuarios" mc="Standard.UseCase" uid="8e99e54b-1bd0-449f-8787-5ff9b512b867"/>
+        <COMPID name="Crear lista de reproducción sólo con música local" mc="Standard.UseCase" uid="236b677f-a40e-4614-a3a0-35d0d17c46cd"/>
+        <COMPID name="Crear lista de reproducción sólo con música en streaming" mc="Standard.UseCase" uid="49ed0e23-1146-4510-b765-5ffadfcc70b5"/>
+        <COMPID name="Crear lista de reproducción con música local y en streaming" mc="Standard.UseCase" uid="f4c83542-ae7c-4e4d-b60d-dc081e2c82bc"/>
+        <COMPID name="Añadir canción a lista de reproducción" mc="Standard.UseCase" uid="8c814b96-6488-476a-8bc4-26313bcc3b1f"/>
+        <COMPID name="Eliminar canción de lista de reproducción" mc="Standard.UseCase" uid="3503b455-0d47-4b93-bffb-ff609488a7fa"/>
+        <COMPID name="Crear carpeta de listas de reproducción" mc="Standard.UseCase" uid="536ee478-57a5-4e03-982f-e94cdfc39904"/>
+        <COMPID name="Hacer públicas o privadas listas de reproducción y carpetas" mc="Standard.UseCase" uid="7164b2b2-8e1f-41c5-8cfe-fe0b367d86ef"/>
+        <COMPID name="Reproducir música local y podcasts locales" mc="Standard.UseCase" uid="77b73b30-640b-45ae-99e3-a9bc6fac7e68"/>
+        <COMPID name="Reproducir música y podcasts en streaming *" mc="Standard.UseCase" uid="10a529d2-fdaa-4f6c-9acd-b421cd79ce54"/>
+        <COMPID name="Añadir otros usuarios como amigos" mc="Standard.UseCase" uid="ba74b38b-2143-496a-8f35-962813d49b68"/>
+        <COMPID name="Enviar solicitud de amistad" mc="Standard.UseCase" uid="a9d7fe34-48cb-49ec-960b-13578375d11c"/>
+        <COMPID name="Aceptar solicitud de amistad" mc="Standard.UseCase" uid="2d93f589-ee70-415d-8cbf-dd6ec306bcf3"/>
+        <COMPID name="Compartir canciones, podcasts y listas de reproducción generando un enlace" mc="Standard.UseCase" uid="38d08dfc-82e8-4aae-92e8-419f5867ece6"/>
+        <COMPID name="Seguir a creadores de contenido" mc="Standard.UseCase" uid="bb51857b-e201-425f-b04a-e340c6a9e917"/>
+        <COMPID name="Suscribirse a podcasts" mc="Standard.UseCase" uid="935f125e-9a35-4ded-9d97-4d170c7dd560"/>
+        <COMPID name="Subir episodio de podcast" mc="Standard.UseCase" uid="57367c65-16e0-43cc-89e7-73d6f7eda85f"/>
+        <COMPID name="Subir música" mc="Standard.UseCase" uid="08f152ad-bdc9-4c59-bf8f-81a2a4e1b020"/>
+        <COMPID name="Crear álbum" mc="Standard.UseCase" uid="61fc9bb4-9f03-4a98-84ff-f6e9eb93a009"/>
+        <COMPID name="Crear podcast" mc="Standard.UseCase" uid="ecafdede-3d2e-4093-8e04-1d8396265fa7"/>
+        <COMPID name="Reproducir en modo aleatorio" mc="Standard.UseCase" uid="81e19110-db9b-44ff-8f7b-908bf86a1f74"/>
+        <COMPID name="Reproducir en bucle" mc="Standard.UseCase" uid="9b5c71d1-8d74-4831-a900-d06dbe100ff4"/>
+        <COMPID name="Pausar reproducción" mc="Standard.UseCase" uid="2f4d7fb0-1e6d-4372-b697-e92d6a1faa9a"/>
+        <COMPID name="Cambiar de canción o podcast" mc="Standard.UseCase" uid="784fbbcc-5729-4a2e-a2fc-ee5de52e2050"/>
+        <COMPID name="Marcar canción o podcast como favorito" mc="Standard.UseCase" uid="71b0a77a-402f-4a5a-92df-f0cce3d8c826"/>
+        <COMPID name="Añadir canción o podcast a cola de reproducción" mc="Standard.UseCase" uid="210cd291-3957-44d4-82d9-4bc02be66d60"/>
+        <COMPID name="Ver canciones, podcast y género más escuchados y últimas 20 canciones reproducidas de un amigo." mc="Standard.UseCase" uid="3ba38fa7-c35e-4e51-9581-10f50768e6d8"/>
+        <COMPID name="Crear cuenta de creador de contenido" mc="Standard.UseCase" uid="f5dcead7-516f-4f0f-9322-78bc38cbce64"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de casos de uso" mc="Standard.UseCaseDiagram" uid="04ef4d07-7350-4ce7-8f11-d461b69fd61a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
