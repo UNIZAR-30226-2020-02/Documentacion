@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PlayStack DCU-Sistema" version="4">
+  <OBJECT>
+    <ID name="PlayStack DCU-Sistema" mc="Standard.Package" uid="07780ea5-cc21-48cb-b38a-ef89e17adb5a"/>
+    <PID name="playstack" mc="Standard.Package" uid="80aa0550-5e89-4a6f-8240-cc45df973034"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[PlayStack DCU-Sistema]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuario estándar" mc="Standard.Actor" uid="73cbbc31-3e9a-4d27-9abc-f279df857cd9"/>
+        <COMPID name="Registrarse en el sistema" mc="Standard.UseCase" uid="3c2e70e4-a30b-4edf-b1d2-4112c18c9bcc"/>
+        <COMPID name="Usuario premium" mc="Standard.Actor" uid="62e77e39-cf31-42a7-970b-ed40cc5aa424"/>
+        <COMPID name="Creador de contenido" mc="Standard.Actor" uid="ca7d0d7e-be6f-4743-b968-821680aaf44e"/>
+        <COMPID name="Iniciar sesión en el sistema" mc="Standard.UseCase" uid="79d506a0-060e-4b76-a60d-1b54db83bbc0"/>
+        <COMPID name="Convertirse en usuario premium" mc="Standard.UseCase" uid="008e0e38-f278-4a26-884e-ac805fd7a4b5"/>
+        <COMPID name="Realizar pago" mc="Standard.UseCase" uid="2c37a7ad-a7be-4701-be24-9ec332eda322"/>
+        <COMPID name="Modificar perfil de usuario" mc="Standard.UseCase" uid="a82e6db0-196b-4800-a9fd-c07c0780a1fe"/>
+        <COMPID name="Buscar en el sistema" mc="Standard.UseCase" uid="1b5eb137-a938-4578-9a5c-580215e3a47f"/>
+        <COMPID name="Buscar música" mc="Standard.UseCase" uid="7c648a03-63b4-44c9-ac56-d9c4c2865647"/>
+        <COMPID name="Buscar podcasts" mc="Standard.UseCase" uid="8f5375ec-4386-4575-bc83-956e843219be"/>
+        <COMPID name="Buscar álbumes" mc="Standard.UseCase" uid="9eb8dc98-e8e1-4846-a4a1-227d4060afda"/>
+        <COMPID name="Buscar listas de reproducción" mc="Standard.UseCase" uid="ee4fc60a-7f1b-45e4-8b82-6fb68903ab6d"/>
+        <COMPID name="Buscar usuarios" mc="Standard.UseCase" uid="70394126-4572-49b6-808a-d5c820e730b7"/>
+        <COMPID name="Modificar podcast" mc="Standard.UseCase" uid="874bb37f-28b9-4ded-b7d3-e582d9bf9806"/>
+        <COMPID name="Modificar álbum" mc="Standard.UseCase" uid="ba92bcf5-09d4-4142-8e5c-dd68af02bfd8"/>
+        <COMPID name="Crear álbum" mc="Standard.UseCase" uid="bbef219f-3ef8-4abc-a5a5-77c35d09bdaf"/>
+        <COMPID name="Crear podcast" mc="Standard.UseCase" uid="8fad84fa-14ea-4903-a14d-41d46c862a64"/>
+        <COMPID name="Crear cuenta de creador de contenido" mc="Standard.UseCase" uid="b41bd3d0-88b5-4e50-a1b0-b417d52884e4"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama de casos de uso" mc="Standard.UseCaseDiagram" uid="46678de1-c83c-405c-a562-903c095055b9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
