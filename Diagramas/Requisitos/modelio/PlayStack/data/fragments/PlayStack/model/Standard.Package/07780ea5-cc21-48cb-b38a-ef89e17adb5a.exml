@@ -33,6 +33,8 @@
         <COMPID name="Crear álbum" mc="Standard.UseCase" uid="bbef219f-3ef8-4abc-a5a5-77c35d09bdaf"/>
         <COMPID name="Crear podcast" mc="Standard.UseCase" uid="8fad84fa-14ea-4903-a14d-41d46c862a64"/>
         <COMPID name="Crear cuenta de creador de contenido" mc="Standard.UseCase" uid="b41bd3d0-88b5-4e50-a1b0-b417d52884e4"/>
+        <COMPID name="Subir música" mc="Standard.UseCase" uid="77dc0808-a715-4475-8ee0-31491bc9af1c"/>
+        <COMPID name="Subir episodio de podcast" mc="Standard.UseCase" uid="4bc4cf1e-9e73-4c6b-9608-8dc4bb6a51f6"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagrama de casos de uso" mc="Standard.UseCaseDiagram" uid="46678de1-c83c-405c-a562-903c095055b9"/>

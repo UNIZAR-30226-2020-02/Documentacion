@@ -1,14 +1,9 @@
-<<<<<<< HEAD:Diagramas/modelio/PlayStack/.runtime/.save
-#Wed Apr 15 21:49:14 CEST 2020
+#Wed Apr 15 23:36:21 CEST 2020
+>>>>>>>=112a6728bcf248906d18ecaf07dad09b5942c088
 org.modelio.diagram.editor.OpenedDiagrams4='Diagrama de casos de uso' {df330873-0df4-47f3-852d-56802858e78a} Standard.UseCaseDiagram
 org.modelio.diagram.editor.OpenedDiagrams3='Diagrama de casos de uso' {4a15a4b2-bc72-4563-b861-06202db35d55} Standard.UseCaseDiagram
-=======
-<<<<<<< HEAD
-#Mon Mar 16 13:26:37 CET 2020
-=======
-#Wed Apr 08 22:21:48 CEST 2020
->>>>>>> 6bc5c74b05678c521df41952a1629467084e986f:modelio/PlayStack/.runtime/.save
 org.modelio.diagram.editor.OpenedDiagrams2='Diagrama de casos de uso' {c3c148ec-ad05-48c9-a549-b690e59565e6} Standard.UseCaseDiagram
 org.modelio.diagram.editor.OpenedDiagrams1='Diagrama de casos de uso' {ae69ab9f-c13c-4f31-abf3-1e707ac97724} Standard.UseCaseDiagram
->>>>>>> 112a6728bcf248906d18ecaf07dad09b5942c088
 org.modelio.diagram.editor.OpenedDiagrams0='Diagrama de casos de uso' {46678de1-c83c-405c-a562-903c095055b9} Standard.UseCaseDiagram
+=\=\=\=\=\=\=
+<<<<<<<=HEAD

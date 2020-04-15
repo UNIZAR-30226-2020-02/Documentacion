@@ -23,10 +23,11 @@
         <COMPID name="Añadir canción a lista de reproducción" mc="Standard.UseCase" uid="bc951a6d-1623-423b-9cc9-550a2fe9c37d"/>
         <COMPID name="Eliminar canción de lista de reproducción" mc="Standard.UseCase" uid="149e5091-7ea3-457c-96c7-e8f71bf9bb71"/>
         <COMPID name="Crear carpeta de listas de reproducción" mc="Standard.UseCase" uid="bea1492c-f6e6-4f43-ac65-fde7f7363e5b"/>
-        <COMPID name="Hacer públicas o privadas listas de reproducción y carpetas" mc="Standard.UseCase" uid="e8474e13-2b10-4fb1-a8d3-b30e047f9090"/>
+        <COMPID name="Hacer públicas o privadas listas de reproducción" mc="Standard.UseCase" uid="e8474e13-2b10-4fb1-a8d3-b30e047f9090"/>
         <COMPID name="Marcar canción o podcast como favorito" mc="Standard.UseCase" uid="21e5588e-18ec-4e99-889c-d9d5cd88960f"/>
         <COMPID name="DCU-Playlists" mc="Standard.Package" uid="0b8d2b37-adc7-4871-b424-fde0b7a3a2e9"/>
         <COMPID name="Modificar carpeta de listas de reproducción" mc="Standard.UseCase" uid="5147a051-dfd9-4b40-99bd-dd6732479fe7"/>
+        <COMPID name="Modificar lista de reproducción" mc="Standard.UseCase" uid="93fa4709-4f1f-4ccb-a686-44a40be42add"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagrama de casos de uso" mc="Standard.UseCaseDiagram" uid="4a15a4b2-bc72-4563-b861-06202db35d55"/>
