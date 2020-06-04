@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="models" version="4">
+  <OBJECT>
+    <ID name="models" mc="Standard.Package" uid="e70f6e8d-ec01-4822-8d9b-675ce93fbe08"/>
+    <PID name="shared" mc="Standard.Package" uid="1159cd66-54d5-476d-8668-f01ab4d772d4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[models]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Album.dart" mc="Standard.Package" uid="27624351-d90a-4ca8-936f-53d97375a7dc"/>
+        <COMPID name="Artist.dart" mc="Standard.Package" uid="d505bbdb-3a97-4da3-92c9-bb20620619a3"/>
+        <COMPID name="Audio.dart" mc="Standard.Package" uid="8107626d-55cc-477a-ab21-2b19ad01df91"/>
+        <COMPID name="Episode.dart" mc="Standard.Package" uid="c6eccb9c-aecd-4802-8578-e81320842ac4"/>
+        <COMPID name="Song.dart" mc="Standard.Package" uid="54cb935c-407e-423c-93e8-94cb876bd8ae"/>
+        <COMPID name="FolderType.dart" mc="Standard.Package" uid="afa4edae-09fb-4975-a771-7e7a794190d1"/>
+        <COMPID name="Genre.dart" mc="Standard.Package" uid="02a7482a-011e-4956-8bf8-f186427d8cdc"/>
+        <COMPID name="LocalPlaylist.dart" mc="Standard.Package" uid="a1b72417-87b2-4464-84fd-f617b0f65dc6"/>
+        <COMPID name="LocalSong.dart" mc="Standard.Package" uid="0e1f4f15-6508-49ba-bba7-4cb86850e1e8"/>
+        <COMPID name="PlaylistType.dart" mc="Standard.Package" uid="5e712c74-eac6-4260-ba00-1eb9f3e83dc1"/>
+        <COMPID name="Podcast.dart" mc="Standard.Package" uid="ff66a612-c919-4f65-8634-80124a9eb0eb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

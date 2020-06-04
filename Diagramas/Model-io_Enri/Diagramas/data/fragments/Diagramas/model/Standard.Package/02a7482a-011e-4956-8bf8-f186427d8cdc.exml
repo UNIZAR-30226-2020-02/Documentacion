@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Genre.dart" version="4">
+  <OBJECT>
+    <ID name="Genre.dart" mc="Standard.Package" uid="02a7482a-011e-4956-8bf8-f186427d8cdc"/>
+    <PID name="models" mc="Standard.Package" uid="e70f6e8d-ec01-4822-8d9b-675ce93fbe08"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Genre.dart]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Genre" mc="Standard.Class" uid="fd942d27-ee73-4e5d-973f-11119bdf3033"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalSong.dart" version="4">
+  <OBJECT>
+    <ID name="LocalSong.dart" mc="Standard.Package" uid="0e1f4f15-6508-49ba-bba7-4cb86850e1e8"/>
+    <PID name="models" mc="Standard.Package" uid="e70f6e8d-ec01-4822-8d9b-675ce93fbe08"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[LocalSong.dart]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LocalSong" mc="Standard.Class" uid="9f004c8d-9f6e-4bb8-9b72-83dc6f9b3511"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
