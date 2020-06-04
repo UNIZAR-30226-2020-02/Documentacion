@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Library" version="4">
+  <OBJECT>
+    <ID name="Library" mc="Standard.Package" uid="6e2b7fbc-cece-4306-9770-329fb151f050"/>
+    <PID name="screens" mc="Standard.Package" uid="51d7a77f-3ed3-4560-ad45-28a5e47d4ffc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Library]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Local_music" mc="Standard.Package" uid="ec6fd840-4a15-4e28-8ccb-b65d9bfefaf5"/>
+        <COMPID name="Folder.dart" mc="Standard.Class" uid="22303830-3d16-49db-a25f-71fa6106ae30"/>
+        <COMPID name="Library.dart" mc="Standard.Class" uid="f97a8e3a-39fa-4eb7-8855-c6591300cf67"/>
+        <COMPID name="Playlists.dart" mc="Standard.Class" uid="db70a6ac-c372-4e27-9fef-624a068a6d29"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

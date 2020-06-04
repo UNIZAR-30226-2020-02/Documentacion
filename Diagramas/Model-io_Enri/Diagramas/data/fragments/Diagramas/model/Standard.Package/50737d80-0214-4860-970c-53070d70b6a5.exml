@@ -17,8 +17,8 @@
         <COMPID name="Flutter" mc="Standard.Package" uid="6b0e13f6-d24e-40d9-8707-c2f0e3145263"/>
         <COMPID name="services" mc="Standard.Package" uid="ff56116e-2952-43ad-a152-201918b11a79"/>
         <COMPID name="shared" mc="Standard.Package" uid="1159cd66-54d5-476d-8668-f01ab4d772d4"/>
-        <COMPID name="AudioPlayer" mc="Standard.DataType" uid="94a9897b-f9b4-4ea9-810b-98e2c04b4a40"/>
-        <COMPID name="Podcast" mc="Standard.DataType" uid="35926a53-5b3e-4a72-a765-6f463c961375"/>
+        <COMPID name="models" mc="Standard.Package" uid="e70f6e8d-ec01-4822-8d9b-675ce93fbe08"/>
+        <COMPID name="screens" mc="Standard.Package" uid="51d7a77f-3ed3-4560-ad45-28a5e47d4ffc"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagrama de modulos" mc="Standard.ClassDiagram" uid="ff1d1280-f368-4b6b-8e8c-bb0e0cd314d1"/>

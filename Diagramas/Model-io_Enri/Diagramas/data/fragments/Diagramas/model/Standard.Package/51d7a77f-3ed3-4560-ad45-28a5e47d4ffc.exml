@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="screens" version="4">
+  <OBJECT>
+    <ID name="screens" mc="Standard.Package" uid="51d7a77f-3ed3-4560-ad45-28a5e47d4ffc"/>
+    <PID name="diagramas" mc="Standard.Package" uid="50737d80-0214-4860-970c-53070d70b6a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[screens]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="authentication" mc="Standard.Package" uid="a0c3a45c-ed14-411f-83b6-dbf09110681f"/>
+        <COMPID name="HomeScreen" mc="Standard.Package" uid="a7cc359d-b6e9-4fe1-bee3-901c34308dd4"/>
+        <COMPID name="Library" mc="Standard.Package" uid="6e2b7fbc-cece-4306-9770-329fb151f050"/>
+        <COMPID name="Player" mc="Standard.Package" uid="71470491-34db-4c4f-8115-31ed3e364e51"/>
+        <COMPID name="Search" mc="Standard.Package" uid="7820c95c-56fe-46c7-afda-7865f90702fb"/>
+      </COMP>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="79fa074d-8ea6-4374-868a-3d148b2c9706"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Flutter" mc="Standard.Package" uid="6b0e13f6-d24e-40d9-8707-c2f0e3145263"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="64f681e0-5aad-4e6d-9d13-b4d04487a639"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="models" mc="Standard.Package" uid="e70f6e8d-ec01-4822-8d9b-675ce93fbe08"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="b8eaa6d3-5981-4c20-8514-3bfb3ed712b6"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="services" mc="Standard.Package" uid="ff56116e-2952-43ad-a152-201918b11a79"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

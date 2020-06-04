@@ -15,7 +15,33 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="common.dart" mc="Standard.Class" uid="83714e40-c18b-4364-992d-9b72089396df"/>
-        <COMPID name="models" mc="Standard.Package" uid="e70f6e8d-ec01-4822-8d9b-675ce93fbe08"/>
+        <COMPID name="Loading.dart" mc="Standard.Class" uid="77a301e8-8d36-435a-8655-e3900e4c1c15"/>
+      </COMP>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="38a388ac-6acc-4703-bc91-b85b42f46539"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Flutter" mc="Standard.Package" uid="6b0e13f6-d24e-40d9-8707-c2f0e3145263"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="0f5284c9-e47c-4460-a25c-a31865e73bcf"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="services" mc="Standard.Package" uid="ff56116e-2952-43ad-a152-201918b11a79"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

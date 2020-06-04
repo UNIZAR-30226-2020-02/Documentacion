@@ -18,6 +18,8 @@
         <COMPID name="StatefulWiget" mc="Standard.Class" uid="275ea4eb-be99-4545-b496-622c9b77ecb4"/>
         <COMPID name="StatelessWidget" mc="Standard.Class" uid="de88d1ef-6de0-4cb5-98a6-2a9d7fd1642b"/>
         <COMPID name="Duration" mc="Standard.DataType" uid="04a6c337-cfe5-4f00-97eb-b94bcdf80202"/>
+        <COMPID name="AudioPlayer" mc="Standard.DataType" uid="94a9897b-f9b4-4ea9-810b-98e2c04b4a40"/>
+        <COMPID name="Podcast" mc="Standard.DataType" uid="35926a53-5b3e-4a72-a765-6f463c961375"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

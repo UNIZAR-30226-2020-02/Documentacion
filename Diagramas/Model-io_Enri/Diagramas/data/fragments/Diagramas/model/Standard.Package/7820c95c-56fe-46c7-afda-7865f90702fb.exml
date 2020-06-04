@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Search" version="4">
+  <OBJECT>
+    <ID name="Search" mc="Standard.Package" uid="7820c95c-56fe-46c7-afda-7865f90702fb"/>
+    <PID name="screens" mc="Standard.Package" uid="51d7a77f-3ed3-4560-ad45-28a5e47d4ffc"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Search]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SearchProcess" mc="Standard.Class" uid="afe9d70a-4bea-4662-b8d1-2095f326bfa2"/>
+        <COMPID name="SearchScreen" mc="Standard.Class" uid="aa0d1a55-3f73-4627-b494-9b29027eebfc"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

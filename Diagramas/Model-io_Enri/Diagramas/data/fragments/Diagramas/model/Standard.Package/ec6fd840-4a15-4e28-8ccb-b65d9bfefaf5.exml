@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Local_music" version="4">
+  <OBJECT>
+    <ID name="Local_music" mc="Standard.Package" uid="ec6fd840-4a15-4e28-8ccb-b65d9bfefaf5"/>
+    <PID name="Library" mc="Standard.Package" uid="6e2b7fbc-cece-4306-9770-329fb151f050"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Local_music]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="LocalMusic.dart" mc="Standard.Class" uid="3818c50c-5ada-4714-ae52-b4e90d6e550a"/>
+        <COMPID name="LocalPlaylistView" mc="Standard.Class" uid="0bf13d36-c751-4499-8510-7da82e9e07ab"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
