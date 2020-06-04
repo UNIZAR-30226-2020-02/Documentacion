@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="services" version="4">
+  <OBJECT>
+    <ID name="services" mc="Standard.Package" uid="ff56116e-2952-43ad-a152-201918b11a79"/>
+    <PID name="diagramas" mc="Standard.Package" uid="50737d80-0214-4860-970c-53070d70b6a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[services]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SQLite.dart" mc="Standard.Class" uid="0b45ac7c-c16e-4311-8061-38c8f5d54f24"/>
+        <COMPID name="database.dart" mc="Standard.Class" uid="9af5c934-1040-4a40-8f0e-6cd87a80d824"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

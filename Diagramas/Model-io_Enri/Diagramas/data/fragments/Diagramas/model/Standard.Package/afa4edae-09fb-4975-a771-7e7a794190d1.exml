@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="FolderType.dart" version="4">
+  <OBJECT>
+    <ID name="FolderType.dart" mc="Standard.Package" uid="afa4edae-09fb-4975-a771-7e7a794190d1"/>
+    <PID name="models" mc="Standard.Package" uid="e70f6e8d-ec01-4822-8d9b-675ce93fbe08"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[FolderType.dart]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FolderType" mc="Standard.Class" uid="f41decf1-7cac-46e1-91e2-c0d3be49750d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

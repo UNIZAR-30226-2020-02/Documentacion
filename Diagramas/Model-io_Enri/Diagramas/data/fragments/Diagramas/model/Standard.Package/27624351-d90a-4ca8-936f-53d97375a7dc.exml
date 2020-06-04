@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Album.dart" version="4">
+  <OBJECT>
+    <ID name="Album.dart" mc="Standard.Package" uid="27624351-d90a-4ca8-936f-53d97375a7dc"/>
+    <PID name="models" mc="Standard.Package" uid="e70f6e8d-ec01-4822-8d9b-675ce93fbe08"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Album.dart]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Album" mc="Standard.Class" uid="174eee9b-0701-427b-b8cd-bdb774c957f6"/>
+        <COMPID name="AlbumTile" mc="Standard.Class" uid="a7178e5d-baf0-49fe-8bcf-ec8177a59034"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
